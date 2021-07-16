@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     margin: 0;
     font-family:'Inter', sans-serif;
@@ -36,12 +37,13 @@ body{
     margin-top:1.1875rem;
 }
 .app1{
-    margin-left: 13.5625rem;
+    margin-left: 10.5625rem;
     margin-top: 1rem;
 }
 .app2{
-    margin-left: 0.804rem;
+    margin-left: 0.75rem;
     margin-top: 1rem;
+    margin-right: 10.3125rem;
 }
 
 .main-title{
@@ -53,7 +55,7 @@ body{
 .hero{
     text-align: left;
     margin-left: 10.3125rem;
-    margin-top: 12.125rem;
+    margin-top: 11.125rem;
 }
 .main-content{
     display: flex;
@@ -70,9 +72,13 @@ body{
 }
 figure{
     text-align: center;
-    margin-top: 8.1875rem;
+    margin-top: 5.3875rem;
+    margin-left: 5.8rem;
 }
 
+.anchor{
+    margin-top: 2.5rem;
+}
 
 .slick-carousel {
    
@@ -80,7 +86,7 @@ figure{
     padding-top: 0.5rem;
     padding-bottom:0.5rem;
     margin-left: 12.6rem;
-    margin-top: 1.5rem;
+    margin-top: 0.6rem;
     margin-bottom: 1.5rem;
 
   }
@@ -114,8 +120,13 @@ figure{
     border-left: 0;
     border-right: 0;
     border-image-slice: 1;
+    padding-top:1rem;
 }
 
+.TMF{
+    padding-bottom:4rem;
+    padding-top: 4rem;
+}
 
 .TMF-items{
     display: flex;
@@ -126,7 +137,6 @@ figure{
     font-size:3rem;
     font-weight: 800;
     line-height: 4rem;
-    margin-top: 4rem;
 }
 .TMF-items p{
     text-align: center;
@@ -142,8 +152,7 @@ figure{
     flex-flow: row;
     margin-left: 10.3125rem;
     margin-right: 10.3125rem;
-    text-align: center;
-    justify-content: space-around;
+    text-align:center;
 }
 .box1{
     flex:1;
@@ -170,20 +179,24 @@ figure{
     order:3;
 }
 .container-1 h5,.container-2 h5{
-    font-size: 1.5rem;
+    font-size: 1.5625rem;
     line-height: 2rem;
     font-weight: 600;
     max-height: 2rem;
     margin-top: 1.5rem;
 }
 .container-1 p,.container-2 p{
-    font-size: 1rem;
+    font-size: .92rem;
     line-height: 1.625rem;
-    margin-left: 1.8rem;
+    margin-left: 1.875rem;
     margin-top: 0.5rem;
+    max-width:21.875rem;
+    color:#18191F;
+    font-weight: 400;
 }
 .stories{
     background-color: #D5FAFC;
+    display: flex;
 }
 .achievements{
     display: flex;
@@ -241,6 +254,7 @@ figure{
 }
 .p-mock{
     margin-top: 4rem;
+    margin-bottom: 4rem;
     margin-left: 10.3125rem;
 }
 
@@ -272,4 +286,161 @@ figure{
 }
 .headline a{
     margin-left: 3rem;
+}
+
+.footer-left,.links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+.links-row1,
+.links-row2{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0;
+color: white;
+}
+
+footer{
+    color: white;
+    background-color: #18191F;
+}
+
+.links-row2 p,.links-row1 p{
+    margin-right:1.5rem;
+    flex:0 1 auto;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
+.links{
+    margin-left: 10.31rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.37rem;
+}
+.links-row1{
+    margin-top: 1.3rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.download-badge{
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+padding: 0;
+margin-left: 60rem;
+margin-top: -12rem;
+}
+
+.download-badge p,img{
+    padding: .45rem;
+}
+.watermark{
+    margin-top: 2rem;
+}
+.card-left,.card-top,.card-bottom{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 1.5rem;
+padding-bottom: 0;
+box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+border-radius: 0.5rem;
+background-color: white;
+}
+.card-left{
+margin-left:22.1875rem;
+margin-bottom: 7.25rem;
+margin-top:1.5rem;
+}
+.card-top{
+    margin-top: 10.5rem;
+    margin-left: 1.875rem;
+}
+.card-bottom{
+    margin-top: 2rem;
+    margin-left: 1.875rem;
+    margin-bottom: 5rem;
+}
+
+.card-content{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+margin: 2rem 0rem;
+}
+.lead,.lead1{
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight:400;
+    color:#18191F;
+    margin:0;
+    padding-top:0.5rem;
+}
+.lead{
+    max-width: 15.875rem;
+}
+.lead1{
+    max-width: 21.81rem;
+
+}
+.quote h2{
+    max-width: 27.8125rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4rem;
+    flex:none;
+    order:0;
+}
+.quote p{
+    flex:none;
+    order:1;
+}
+.quote{
+    position: relative;
+    left:16.5rem;
+    top:-0.5rem;
+}
+
+.personal{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0rem;
+margin-top:1.5rem;
+}
+.name{
+    font-size: 1.125rem;
+    line-height:1.75rem;
+    font-weight: bold;
+}
+.post{
+    font-size: 0.875rem;
+    line-height:1.5rem;
+    font-weight: 500;
+    color: #969BAB;
+}
+.fpersonal{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-bottom: 0;
+order: 1;
+margin: 0 0.5rem;
+margin-bottom: 0;
+}
+
+.card-content img{
+    opacity: 0.4;
+}
+.in-comma{
+    position: relative;
+    left: 10.3125rem;
+    top: 4rem;
 }
